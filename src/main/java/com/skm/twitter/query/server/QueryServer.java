@@ -10,7 +10,7 @@ public class QueryServer {
 	private static Query query = new Query();
 	
 	//1 hour interval
-	private static long intevalPeriod = 10 * 1000;
+	private static long intevalPeriod = 60 * 60 * 1000;
 	
 	public static void main(String[] args) {
 	    String textToSearch = "";
